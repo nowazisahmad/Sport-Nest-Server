@@ -1,0 +1,23 @@
+{
+  "name": "sport-nest-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "build": "node -e \"console.log('Build complete')\"",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "jose": "^6.2.13",
+    "mongodb": "^7.7.0"
+  }
+}
